@@ -1,0 +1,11 @@
+﻿
+@{
+    ViewBag.Title = "Admin";
+}
+
+<h2>Admin</h2>
+
+@using (Html.BeginForm("SendMessageToClient", "Server", FormMethod.Post))
+{
+    <p><input type="submit" id="Start Server" name="Start Server" value="Start Server" /></p>
+}
